@@ -1,2 +1,2 @@
 // MODULE
-var forexApp = angular.module('forexApp', ['ngRoute']);
+var forexApp = angular.module('forexApp', ['ngRoute', 'ngResource']);

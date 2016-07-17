@@ -3,8 +3,11 @@
 <pre>Base Currency: "{{ baseCurrency }}"</pre>
 <pre>Target Currency: "{{ targetCurrency }}"</pre>
 
-<div class="list" ng-repeat="d in data track by $index">
+<!--div class="list" ng-repeat="d in data track by $index">
     <p>{{d}}</p>
-</div>
+</div-->
+
+{{forexLatestResult.date}}
+{{forexLatestResult.rates}}
 
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>

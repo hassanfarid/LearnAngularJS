@@ -12,5 +12,10 @@ forexApp.config(function($routeProvider) {
         templateUrl: 'views/forex.htm',
         controller: 'forexController'
     })
+
+    .when('/forex:num', {
+        templateUrl: 'views/forex.htm',
+        controller: 'forexController'
+    })
     
 });
